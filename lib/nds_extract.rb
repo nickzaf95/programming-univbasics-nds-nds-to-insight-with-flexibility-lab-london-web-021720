@@ -106,7 +106,7 @@ def movies_with_directors_set(source)
     i = 0 
     while i < arr[counter].size do 
       #movies_with_director_key(source[counter][:name], arr[counter][i])
-      arr[counter][i][:director_name] = source[counter][:director_name]
+      arr[counter][i][:director_name] = source[counter][:name]
       i += 1 
     end
     counter += 1 
