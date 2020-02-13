@@ -109,7 +109,8 @@ def movies_with_directors_set(source)
     end
     counter += 1 
   end
-  arr  
+  result = flatten_a_o_a(arr)  
+  result
 end
 
 # ----------------    End of Your Code Region --------------------
