@@ -111,7 +111,7 @@ def movies_with_directors_set(source)
     end
     counter += 1 
   end
-  #pp arr
+  pp arr[0][0]
   arr
 end
 
